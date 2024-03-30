@@ -1,0 +1,36 @@
+.App {
+  text-align: center;
+}
+
+.login-top-bar{
+  height: 50px;
+  width: 100%;
+}
+
+.login-top-bar:hover{
+  background-color: rgb(184, 229, 175);
+  width: 100%;
+  position: absolute;
+  z-index: 1;
+  /* margin-bottom: 50px; */
+  top: -50px;
+  height: 20rem;
+  animation: downwards 1.2s forwards  ease-in;
+  transition: all;
+}
+
+@keyframes downwards {
+  0%{
+    /* pos/ */
+    opacity: 0;
+    transform: translateY(-10rem);
+  }
+  20%{
+    opacity: 100%;
+    transform: translateY(1px);
+  }
+  100%{
+    opacity: 100%;
+    transform: translateY(0);
+  }
+}
