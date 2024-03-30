@@ -1,0 +1,16 @@
+.red-box{
+    width: 10rem;
+    background-color: rgb(241, 74, 74);
+    color: white;
+    height: 10rem;
+    border-radius: 12px;
+    box-shadow: 10 2 1 10 ;
+}
+.blue-box{
+    width: 10rem;
+    background-color: rgb(139, 239, 139);
+    color: white;
+    height: 10rem;
+    border-radius: 12px;
+    box-shadow: 10 2 1 10 ;
+}
