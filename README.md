@@ -1,4 +1,4 @@
-#Springboot-authentication-authorization
+# Springboot-authentication-authorization
 > This is a demo project to describe the concept of authentication and authorization using JWT Tokens.
 >
 > We have simple web page developed using React.
@@ -21,7 +21,7 @@
 >
  * The green button is passing the token to backend. This will be verified by backend and gives success response.
  * ![image](https://github.com/hafeez8165526/Springboot-authentication-authorization/assets/45596435/3959ace4-9e4f-4e80-9a5f-7dc6e3274b9b)
- * ![Uploading image.png…]()
+
  
 
 
