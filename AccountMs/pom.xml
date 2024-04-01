@@ -10,7 +10,7 @@
 		<relativePath /> <!-- lookup parent from repository -->
 	</parent>
 	<groupId>com.AccountMs</groupId>
-	<artifactId>microone</artifactId>
+	<artifactId>accountms</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
 	<packaging>war</packaging>
 	<name>AccountMs</name>
