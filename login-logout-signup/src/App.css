@@ -16,14 +16,14 @@
   top: -50px;
   height: 20rem;
   animation: downwards 1.2s forwards  ease-in;
-  transition: all;
+  /* transition: all; */
 }
 
 @keyframes downwards {
   0%{
     /* pos/ */
     opacity: 0;
-    transform: translateY(-10rem);
+    transform: translateY(-2rem);
   }
   20%{
     opacity: 100%;

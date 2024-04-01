@@ -1,5 +1,7 @@
 import React, { useState,useEffect } from 'react'
 import "./Dashboard.css"
+import "../App.css"
+import "./Login.css"
 import axios from 'axios'
 
 function Dashboard({ loggedInUser }) {
@@ -36,7 +38,7 @@ function Dashboard({ loggedInUser }) {
     
 
     return (
-        <div>
+        <div className='dashboard'>
             <div className="login-top-bar shadow-sm bg-base-300 bg-slate-100"></div>
 
             <div className="card bg-center items-center justify-center">
@@ -49,7 +51,7 @@ function Dashboard({ loggedInUser }) {
                         I have the token
                     </button>
                 </div>
-                {loginSuccess && <h2 className='text-green-500 mt-5 font-semibold card'>Login Success </h2>}
+                {loginSuccess && <h2 className='text-green-500 mt-5 font-semibold card  '>Login Success </h2>}
                 {!loginSuccess && <h2 className='text-red-700 mt-5 font-semibold '>Login Failed</h2>}
             </div>
         </div>
