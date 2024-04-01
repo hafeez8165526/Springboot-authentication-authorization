@@ -51,8 +51,8 @@ function Dashboard({ loggedInUser }) {
                         I have the token
                     </button>
                 </div>
-                {loginSuccess && <h2 className='text-green-500 mt-5 font-semibold card  '>Login Success </h2>}
-                {!loginSuccess && <h2 className='text-red-700 mt-5 font-semibold '>Login Failed</h2>}
+                {loginSuccess && <h2 className='text-green-500 mt-5 font-semibold card  '>Token Verified Succesfully</h2>}
+                {!loginSuccess && <h2 className='text-red-700 mt-5 font-semibold '>Token Verification failed</h2>}
             </div>
         </div>
 
